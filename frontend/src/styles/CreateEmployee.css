@@ -1,0 +1,110 @@
+/* Global reset for padding and margins */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Form container styling */
+.create-employee-container {
+    max-width: 940px;
+    height: auto;
+    border: 4px solid #3b82f6;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+/* Title Styling */
+.create-employee-header {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2d3748;
+    margin-bottom: 20px;
+}
+
+/* Input fields styling */
+.input-field {
+    background-color: #fef2f2;
+    border: 2px solid #9ca3af;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+/* Select field styling */
+.select-field {
+    background-color: #ffffff;
+    border: 2px solid #9ca3af;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+/* Radio button styling */
+.radio-label {
+    margin-right: 15px;
+}
+
+/* Checkbox styling */
+.checkbox-label {
+    margin-right: 15px;
+}
+
+/* Button Styling */
+.register-button {
+    background-color: #f87171;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.register-button:hover {
+    background-color: #e11d48;
+}
+
+/* File input styling */
+.file-input {
+    margin: 10px 0;
+}
+
+/* Label Styling */
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Responsive Design for mobile */
+@media (max-width: 768px) {
+    .create-employee-container {
+        padding: 15px;
+        width: 90%;
+    }
+
+    .create-employee-header {
+        font-size: 1.5rem;
+    }
+
+    .input-field,
+    .select-field {
+        padding: 8px;
+    }
+
+    .register-button {
+        padding: 12px;
+    }
+}

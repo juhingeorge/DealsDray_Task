@@ -1,0 +1,102 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Table container styling */
+.employee-list-container {
+    max-width: 100%;
+    margin: 30px auto;
+    padding: 10px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Total count display */
+.employee-list-container p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: left;
+}
+
+/* Table headers */
+th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+/* Table cells */
+td {
+    border: 2px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+/* Image inside the table */
+img {
+    max-width: 50px;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Row hover effect */
+tr:hover {
+    background-color: #f2f2f2;
+}
+
+/* Action buttons */
+button {
+    padding: 6px 15px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+/* Edit and Delete Buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+/* Styling for the Edit link */
+a {
+    color: #007BFF;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    table {
+        font-size: 0.85rem;
+    }
+
+    td, th {
+        padding: 8px;
+    }
+
+    img {
+        max-width: 40px;
+    }
+}
